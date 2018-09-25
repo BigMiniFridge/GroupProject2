@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 14px;
+
+}
+
+#calendar {
+  max-width: 56.25rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+nav.navbar {
+	margin-bottom: 2rem;
+}
+
+a.navbar-brand {
+	margin-left:4rem;
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
+.navbar-light {
+	background-color: #66717E!important;
+}
+
+.navbar-light .navbar-brand {
+	color: #DFF2D8;
+}
+
+.navbar-text {
+	margin-right:4rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	color: #D1CAA1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #D4D6B9;
+}
+
+.dropdown {
+	margin-top: 1rem;
+}
+
+.form-check-inline {
+	margin-right: .2rem;
+}
+
+.form-inline {
+	padding: 0;
+}
+
+.btn-secondary {
+	background-color: #DFF2D8;
+	color: #32213A;
+}
+
+.btn-secondary:hover {
+	background-color: #eFF3D8;
+	color: #32213A;
+}
+
+.jumbotron {
+	background-image: url("../img/rawpixel-633847-unsplash.jpg");
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.fas {
+	color: #32213A;
+}
+
+h1 {
+	background-color: #66717E;
+	color: #DFF2D8;
+	border-radius: 5px;
+	padding:1rem;
+	margin-bottom: 2rem;
+}
+
+form {
+	background-color: #eee;
+	border-radius: 5px;
+	padding:1rem;
+}
+
+.container {
+	background-color: #eee;
+	padding: 0;
+}
+
+.card {
+	width: 18rem;
+	margin: 0 auto 0;
+	clear:both;
+	border-left: 1px solid #66717E;
+	border-right: 1px solid #66717E;
+	border-top: 1px solid #fff;
+	border-radius: 0;
+	color: #383B53;
+}
+
+.thing  {
+	border-top: 1px solid #66717E;
+	border-left: 1px solid #66717E;
+	border-right: 1px solid #66717E;
+	border-bottom: 1px solid #fff;
+	width:9rem;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+	float: left;
+	background-color: #fff;
+}
+
+.thing p a {
+	color: #383B53;
+	text-decoration: none;
+}
+
+.inactive {
+	background-color: #ccc;
+	border-bottom: 1px solid #66717E;
+}
+
+.loginbox {
+	width: 18rem;
+	margin: 0 auto;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+#newClient>a, #newProvider>a{
+	color: #383B53;
+	text-decoration: none;
+	margin-left: 1rem;
+}
+
+.loginForm {
+	margin-bottom: 1rem;
+}
